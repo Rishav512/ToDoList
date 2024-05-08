@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.inputToDo {
+  background-color: #ffffff;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* padding-left: 5px; */
+  border-radius: 5px;
+  width: 50%;
+  height: 20px;
+  box-shadow: 0px 5px 10px rgba(11, 10, 10, 0.3);
+  transition: 0.3s;
+  margin-left: 30px;
+  /* position: absolute; */
+}
+.addButton {
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+  border: none;
+  background-color: #0052b6;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 5px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(11, 10, 10, 0.3);
+  transition: 0.3s;
+}
+.itemList {
+  list-style-type: none;
+  background-color: #3f4144;
+  border: 2px solid rgb(161, 158, 158);
+  color: white;
+  padding: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* padding-left: 5px; */
+  border-radius: 5px;
+  width: 50%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  box-shadow: 5px 5px 5px rgba(11, 10, 10, 0.3);
+  /* margin-top: 30px !important; */
+}
+.listContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.icons {
+  display: flex;
+  justify-content: right;
+}
+.icons:hover {
+  color: red;
+  cursor: pointer;
+  transition: 0.7s;
+  transform: scale(1.2);
+}
